@@ -32,6 +32,7 @@ export default {
     gray: '#8F8F8F',
     darkGray: '#2E2F42',
     red: '#e52e4d',
+    green: '#33cc95',
   },
   spacings: {
     xxsmall: '0.8rem',
@@ -49,4 +50,4 @@ export default {
     modal: 40,
     alwaysOnTop: 50,
   },
-};
+} as const;
