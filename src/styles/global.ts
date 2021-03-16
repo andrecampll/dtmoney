@@ -37,6 +37,11 @@ export const GlobalStyle: GlobalStyleComponent<
     button,
     textarea {
       font-family: ${theme.font.family};
+      font-weight: ${theme.font.normal};
+    }
+
+    h1, h2, h3, h4, h5, h6, strong {
+      font-weight: ${theme.font.bold};
     }
 
     button {
