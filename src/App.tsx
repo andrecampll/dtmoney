@@ -11,5 +11,5 @@ export function App() {
         <Dashboard />
         <GlobalStyle />
     </ThemeProvider>
-  );
+  )
 }
