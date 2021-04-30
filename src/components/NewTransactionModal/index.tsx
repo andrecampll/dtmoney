@@ -31,7 +31,13 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
       type,
     };
 
-    createTransaction(transaction);
+    await createTransaction(transaction);
+
+    setTitle('');
+    setCategory('');
+    setType('');
+    setAmount(0);
+    onRequestClose();
   }
 
   return (
